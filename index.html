@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/89233235c8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <header class="contenedor-header">
+            <a href="index.html"> <i class="fa-solid fa-heart header-icon"></i> </a>
+            <nav>
+                <!-- lista de navegacion de nav -->
+                <ul class="lista">
+                    <li>
+                        <a href="#HOLA" class="enlace nav-item">
+                            HOLA
+                        </a>
+                        <!-- <a href="index.html#home"> <i class="fa-solid fa-heart"></i> </a>  -->
+                    </li>
+                    <li>
+                        <a href="#CONOCIMIENTOS" class="enlace nav-item">
+                            CONOCIMIENTOS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#PROYECTOS" class="enlace nav-item">
+                            PROYECTOS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./formulario/formulario.html" class="enlace nav-item">
+                            CONTACTO
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="contenedor-principal">
+                <div class="contenido acerca">
+                    <div class="acerca-de">
+                        <h2> "Acerca de mí" </h2>
+                        <p>
+                            "¡Bienvenido a mi página! Aquí, aprenderás más sobre mí."
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis velit, totam beatae dignissimos cumque blanditiis quasi harum nulla autem explicabo necessitatibus adipisci illum. Alias repellat obcaecati doloremque debitis autem non?
+                        </p>
+                    </div>
+                    <div class="imagen-acerca">
+                        <img src="./img/avatar.jpg" alt="imagen personal">
+                    </div>
+                </div>
+            </section>
+            <section class="contenedor-principal cita">
+                <div class="contenido">
+                    <span class="comillas-cita">
+                        <i class="fa-solid fa-quote-right"></i>
+                    </span>
+                    <blockquote class="contenido-cita">
+                        <q class="texto-cita">
+                            Somos lo que hacemos <em>repetidamente</em>. la <em>excelencia</em> por tanto no es un acto
+                            sino un <em>hábito</em>.
+                        </q>
+                        <cite class="autor-cita">
+                            Aristóteles
+                        </cite>
+                        <q class="texto-cita">
+                            La única <em>verdadera</em> sabiduría está en <em>saber</em> que no sabes <em>nada</em>
+                        </q>
+                        <cite class="autor-cita">
+                            Sócrates
+                        </cite>
+                    </blockquote>
+                </div>
+            </section>
+        </main>
+        <!-- inicio del footer -->
+        <footer class="contenedor-principal">
+            <div class="contenido pie-de-pag">
+                <!-- navegacion del footer -->
+            <ul class="lista">
+                <li>
+                    <a href="#HOLA" class="enlace">
+                        HOLA
+                    </a>
+                </li>
+                <li>
+                    <a href="#CONOCIMIENTOS" class="enlace">
+                        CONOCIMIENTOS
+                    </a>
+                </li>
+                <li>
+                    <a href="#PROYECTOS" class="enlace">
+                        PROYECTOS
+                    </a>
+                </li>
+                <li>
+                    <a href="#CONTACTO" class="enlace">
+                        CONTACTO
+                    </a>
+                </li>
+            </ul>
+            <!-- redes sociales del footer -->
+            <ul class="lista">
+                <li>
+                    <a class="enlace" aria-label="t
+                facebook" href="https://www.facebook.com/selee.munoz.31/">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="enlace" aria-label="github" href="https://github.com/CelesteSelena2022">
+                        <i class="fa-brands fa-github-alt"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="enlace" aria-label="linkedin"
+                        href="https://www.linkedin.com/in/celeste-selena-mu%C3%B1oz/">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="enlace" aria-label="email" href="selenamunoz196@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="text-footer">
+                Hecho con ❤️ por Celeste Muñoz
+            </p>
+            </div>
+        </footer>
+    </div>
+    <button id="btn-generar">Generar Frase Aleatoria</button>
+<footer id="footer">
+    <p id="frase"></p>
+</footer>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
